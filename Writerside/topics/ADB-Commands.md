@@ -1,0 +1,83 @@
+# ADB Commands
+
+## Command to Start an app using its package name from ADB
+`adb shell am start -n com.android.car.settings/com.android.car.settings.Settings_Launcher_Homepage`
+
+## Command to uninstall an app using its package name from ADB 
+`adb uninstall com.android.car.settings`
+
+## Command to force push or downgrade the version of an app in android from ADB
+`adb install -r -d com.android.car.settings`
+
+## Command to find the recently opened activities inside an android emulator from ADB
+`adb shell dumpsys window windows | grep 'mActivityRecord'`
+
+## Command to record screen from ADB
+`adb emu screenrecord start <path to save the file>`
+
+## Command to save a screenshot of an emulator screen from ADB
+`adb emu screenshot <path to save the file>`
+
+## Command to record logs from ADB
+`adb logcat > file_name.txt`
+
+## Command to restart an emulator from ADB
+`adb reboot`
+
+## Command to list apps which are system apps from ADB
+`adb shell pm list packages -s`
+
+## Command to list out packages or apps which are disabled
+`adb shell pm list packages -d`
+
+## Command to switch from user 10 to user 0 through ADB
+`adb shell am switch-user 0`
+
+## Command to switch from user 0 to user 10 through ADB
+`adb shell am switch-user 10`
+
+## Command to list out number of android devices connected to local system through ADB
+`adb devices`
+
+## ADB Command to start an app based on package name if activity name is not available
+`adb shell monkey -p com.android.calendar 1`
+
+## ADB Command to list out number of apps which are used to overlay target apks with RRO process
+`adb shell cmd overlay list --user current`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
