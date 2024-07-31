@@ -9,4 +9,5 @@
     <toc-element topic="ADB-Commands.md"/>
     <toc-element topic="Android-Intents.md"/>
     <toc-element topic="starter-topic.md"/>
+    <toc-element topic="Android-Gradle.md"/>
 </instance-profile>
