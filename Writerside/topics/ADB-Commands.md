@@ -1,5 +1,9 @@
 # ADB Commands
 
+
+## Command to kill an app using the app name 
+adb shell kill `adb shell pgrep kitchensink`
+
 ## Command to Start an app using its package name from ADB
 `adb shell am start -n com.android.car.settings/com.android.car.settings.Settings_Launcher_Homepage`
 
@@ -45,7 +49,11 @@
 ## ADB Command to list out number of apps which are used to overlay target apks with RRO process
 `adb shell cmd overlay list --user current`
 
+## Dumpsys Commands 
 
+## ADB command to get list of all protected broadcasts
+
+`adb shell dumpsys package protected-broadcasts`
 
 
 

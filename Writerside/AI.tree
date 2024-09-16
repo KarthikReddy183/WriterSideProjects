@@ -10,4 +10,6 @@
     <toc-element topic="Android-Intents.md"/>
     <toc-element topic="starter-topic.md"/>
     <toc-element topic="Android-Gradle.md"/>
+    <toc-element topic="Add-Car-Ui-Lib-To-Android-Studio.md"/>
+    <toc-element topic="Git Commands.md"/>
 </instance-profile>
