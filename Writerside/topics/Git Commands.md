@@ -30,3 +30,7 @@
 `git fetch origin branch name`
 
 
+## Git command to apply a patch 
+`git apply name-of-file.patch`
+`https://stackoverflow.com/questions/2249852/how-to-apply-a-patch-generated-with-git-format-patch`
+
