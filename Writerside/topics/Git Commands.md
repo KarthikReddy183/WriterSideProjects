@@ -13,6 +13,9 @@
 
 ## Git command to create a patch of a commit
 `git format-patch -1  commit id`
+`git format-patch -1 HEAD`
+## The -1 flag indicates how many commits should be included in the patch
+https://stackoverflow.com/questions/6658313/how-can-i-generate-a-git-patch-for-a-specific-commit 
 
 
 ## Git command to check the status of changes
@@ -34,3 +37,8 @@
 `git apply name-of-file.patch`
 `https://stackoverflow.com/questions/2249852/how-to-apply-a-patch-generated-with-git-format-patch`
 
+## Git command to restore the original version of a file which has been modified
+`git restore filename`
+
+## Git command to remove or force remove untracked file which have not been added yet 
+`git clean -f`
