@@ -1,5 +1,9 @@
 # ADB Commands
 
+
+## Command to kill an app using the app name 
+adb shell kill `adb shell pgrep kitchensink`
+
 ## Command to Start an app using its package name from ADB
 `adb shell am start -n com.android.car.settings/com.android.car.settings.Settings_Launcher_Homepage`
 
@@ -45,12 +49,22 @@
 ## ADB Command to list out number of apps which are used to overlay target apks with RRO process
 `adb shell cmd overlay list --user current`
 
+## Dumpsys Commands 
+
+## ADB command to get list of all protected broadcasts
+
+`adb shell dumpsys package protected-broadcasts`
+
+## ADB command to know the Android OS of current running device 
+`adb shell getprop ro.build.version.release`
+https://stackoverflow.com/questions/29968096/get-android-os-version-of-device-connected-via-adb 
 
 
-
-
-
-
+## ADB command to know the current version of a specific app 
+`adb shell dumpsys package | 
+awk '/^[ ]*Package \[.*\] (.*)/ { i = index($0, "[") + 1; pkg = substr($0, i, index($0, "]") - i); printf "\n%s", pkg; } /[ ]*versionName=/ { { printf "\t%s", $0; } }  /[ ]*versionCode=/ { { printf  "\t%s", $0; } } ' | 
+grep packageName`
+https://stackoverflow.com/questions/11942762/get-application-version-name-using-adb
 
 
 
