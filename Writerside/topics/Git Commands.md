@@ -42,3 +42,7 @@ https://stackoverflow.com/questions/6658313/how-can-i-generate-a-git-patch-for-a
 
 ## Git command to remove or force remove untracked file which have not been added yet 
 `git clean -f`
+
+## Git command to revert an applied patch 
+`git apply -R file name`
+`https://stackoverflow.com/questions/34400885/how-can-i-remove-an-applied-git-patch`
