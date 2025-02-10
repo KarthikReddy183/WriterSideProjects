@@ -35,7 +35,10 @@ https://stackoverflow.com/questions/6658313/how-can-i-generate-a-git-patch-for-a
 
 ## Git command to apply a patch 
 `git apply name-of-file.patch`
-`https://stackoverflow.com/questions/2249852/how-to-apply-a-patch-generated-with-git-format-patch`
+https://stackoverflow.com/questions/2249852/how-to-apply-a-patch-generated-with-git-format-patch
+
+## Git commnad to check if there are any errors before applying a patch 
+git apply --check a_file.patch
 
 ## Git command to restore the original version of a file which has been modified
 `git restore filename`
