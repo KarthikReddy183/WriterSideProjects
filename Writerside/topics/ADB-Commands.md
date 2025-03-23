@@ -110,6 +110,23 @@ https://stackoverflow.com/questions/52293687/can-i-call-finish-of-an-activity-th
 `adb shell dumpsys activity activities | grep Hist`
 https://stackoverflow.com/questions/2442713/view-the-tasks-activity-stack 
 
+## ADB commands to get dumpsys details related to android components
+`adb shell dumpsys activity`
+`dumpsys activity allowed-associations`
+`dumpsys activity intents`
+`dumpsys activity broadcasts`
+`dumpsys activity providers`
+`dumpsys activity permissions`
+`dumpsys activity services`
+`dumpsys activity recents`
+`dumpsys activity lastanr`
+`dumpsys activity starter`
+`dumpsys activity containers`
+`dumpsys activity activities`
+`dumpsys activity users`
+
+
+
 
 
 
