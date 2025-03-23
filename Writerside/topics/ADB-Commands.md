@@ -107,6 +107,7 @@ https://stackoverflow.com/questions/52293687/can-i-call-finish-of-an-activity-th
 ## ADB command to check which is the root activity for a specific app in android
 
 `adb shell dumpsys activity activities | grep com.android.car.settings | grep Hist`
+`adb shell dumpsys activity activities | grep Hist`
 https://stackoverflow.com/questions/2442713/view-the-tasks-activity-stack 
 
 
