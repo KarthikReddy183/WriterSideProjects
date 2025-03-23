@@ -104,7 +104,10 @@ https://stackoverflow.com/questions/11942762/get-application-version-name-using-
 `adb shell input keyevent 4`
 https://stackoverflow.com/questions/52293687/can-i-call-finish-of-an-activity-through-adb-shell-command
 
+## ADB command to check which is the root activity for a specific app in android
 
+`adb shell dumpsys activity activities | grep com.android.car.settings | grep Hist`
+https://stackoverflow.com/questions/2442713/view-the-tasks-activity-stack 
 
 
 
