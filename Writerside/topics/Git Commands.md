@@ -20,6 +20,7 @@ https://stackoverflow.com/questions/6658313/how-can-i-generate-a-git-patch-for-a
 
 ## Git command to check the status of changes
 `git status`
+`git status .` -> ## To check the modified files from current directory
 
 ## Git command to add all the files which has been changed 
 `git add .`
