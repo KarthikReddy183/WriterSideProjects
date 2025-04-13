@@ -5,7 +5,7 @@
 
 
 ## Commit message command
-`git commit -m "android`
+`git commit -m "android"`
 
 ## Git command to check the commit ID
 `git log`
