@@ -10,6 +10,9 @@
 ## Git command to check the commit ID
 `git log`
 
+## Git command to create a patch for changes made recently without committing the changes
+`git diff > name_of_file.patch` -> [https://stackoverflow.com/questions/5159185/how-to-create-a-git-patch-from-the-uncommitted-changes-in-the-current-working-di ](https://stackoverflow.com/a/15438863/22389280) 
+
 
 ## Git command to create a patch of a commit
 `git format-patch -1  commit id`
