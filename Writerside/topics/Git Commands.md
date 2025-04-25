@@ -10,6 +10,13 @@
 ## Git command to check the commit ID
 `git log`
 
+## What is the use of amend command 
+git commit --amend
+
+## Git command to squash multiple commit into one
+git rebase -i HEAD~2 -> 2 is for two commits, number can be changed based on requirement
+Also when we enter sqaush mode, make sure to pick which commit you want as parent and all children must be marked with 's' instead of 'pick'
+
 ## Git command to create a patch for changes made recently without committing the changes
 `git diff > name_of_file.patch` -> [https://stackoverflow.com/questions/5159185/how-to-create-a-git-patch-from-the-uncommitted-changes-in-the-current-working-di ](https://stackoverflow.com/a/15438863/22389280) 
 
