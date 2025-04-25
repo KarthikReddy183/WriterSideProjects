@@ -13,6 +13,9 @@
 ## What is the use of amend command 
 git commit --amend
 
+## Git command to push changes to a specific branch
+`git push origin HEAD:refs/for/branch_name`
+
 ## Git command to squash multiple commit into one
 git rebase -i HEAD~2 -> 2 is for two commits, number can be changed based on requirement
 Also when we enter sqaush mode, make sure to pick which commit you want as parent and all children must be marked with 's' instead of 'pick'
