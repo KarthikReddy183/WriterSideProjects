@@ -126,7 +126,12 @@ https://stackoverflow.com/questions/2442713/view-the-tasks-activity-stack
 `dumpsys activity users`
 
 
+## ADB command to pull an apk from non-rooted device 
+adb shell pm list packages
+adb shell pm path packagename
+adb pull path-from-above-command
 
+https://gist.github.com/ctrl-freak/24ac0e61b7cf550a6945 
 
 
 
