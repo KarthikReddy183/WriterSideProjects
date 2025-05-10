@@ -60,6 +60,9 @@ git apply --check a_file.patch
 ## Git command to remove or force remove untracked file which have not been added yet 
 `git clean -f`
 
+## Git command to edit the existing commit or old commit [Note: THis command will only add the newly edited files, in order to update commit message use different command] 
+`git commit --amend --no-edit`
+
 ## Git command to revert an applied patch 
 `git apply -R file name`
 `https://stackoverflow.com/questions/34400885/how-can-i-remove-an-applied-git-patch`
