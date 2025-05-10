@@ -10,9 +10,6 @@
 ## Git command to check the commit ID
 `git log`
 
-## What is the use of amend command 
-git commit --amend
-
 ## Git command to push changes to a specific branch
 `git push origin HEAD:refs/for/branch_name`
 
