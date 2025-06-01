@@ -133,7 +133,9 @@ https://stackoverflow.com/questions/2442713/view-the-tasks-activity-stack
 
 https://gist.github.com/ctrl-freak/24ac0e61b7cf550a6945 
 
-
+## ADB command to enable layout bounds in a emulator
+`adb shell setprop debug.layout true`
+`adb shell service call activity 1599295570`
 
 
 
