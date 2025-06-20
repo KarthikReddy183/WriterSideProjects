@@ -7,6 +7,11 @@
 ## Commit message command
 `git commit -m "android"`
 
+## Git command to add username and email globally
+`git config user.email "your_email@abc.example"`
+`git config user.email` -> To check the email address is set as expected or not. 
+https://stackoverflow.com/questions/37805621/change-email-address-in-git 
+
 ## Git command to check the commit ID
 `git log`
 
