@@ -16,6 +16,14 @@ adb shell kill `adb shell pgrep kitchensink`
 
 `adb uninstall com.android.car.settings`
 
+## Command to disable a app using ADB
+
+`adb shell pm disable --user 0 com.android.car.settings`
+
+## Command to enable a app using ADB
+
+`adb shell pm enable --user 10 com.android.car.settings`
+
 ## Command to force push or downgrade the version of an app in android from ADB
 
 `adb install -r -d com.android.car.settings`
@@ -51,6 +59,10 @@ adb shell kill `adb shell pgrep kitchensink`
 ## Command to switch from user 10 to user 0 through ADB
 
 `adb shell am switch-user 0`
+
+## Command to know current user through ADB
+
+`adb shell am get-current-user`
 
 ## Command to switch from user 0 to user 10 through ADB
 
