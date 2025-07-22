@@ -149,7 +149,8 @@ https://gist.github.com/ctrl-freak/24ac0e61b7cf550a6945
 `adb shell setprop debug.layout true`
 `adb shell service call activity 1599295570`
 
-
+## ADB command to open the language screen in settings app
+`adb shell am start -a android.settings.LOCALE_SETTINGS`
 
 
 
