@@ -8,6 +8,10 @@ adb shell kill `adb shell pgrep kitchensink`
 
 `adb shell am start -a "android.intent.action.MANAGE_APP_PERMISSIONS" --es "android.intent.extra.PACKAGE_NAME" "package name"`
 
+## Command to kill an running app
+
+`adb shell am force-stop com.android.car.settings`
+
 ## Command to Start an app using its package name from ADB
 
 `adb shell am start -n com.android.car.settings/com.android.car.settings.Settings_Launcher_Homepage`
