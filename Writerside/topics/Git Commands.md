@@ -7,6 +7,10 @@
 ## Commit message command
 `git commit -m "android"`
 
+## Git command to check commit history for one specific file
+`git log -p filename`
+https://stackoverflow.com/a/280140/22389280 
+
 ## Git command to add username and email globally
 `git config user.email "your_email@abc.example"`
 `git config user.email` -> To check the email address is set as expected or not. 
