@@ -58,7 +58,7 @@ adb shell kill `adb shell pgrep kitchensink`
 
 ## Command to list out packages or apps which are disabled
 
-`adb shell pm list packages -d`
+`adb shell pm list packages -d` https://stackoverflow.com/questions/53634246/android-get-all-installed-packages-using-adb 
 
 ## Command to switch from user 10 to user 0 through ADB
 
