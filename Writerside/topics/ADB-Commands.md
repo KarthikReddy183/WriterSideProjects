@@ -156,6 +156,9 @@ https://gist.github.com/ctrl-freak/24ac0e61b7cf550a6945
 ## ADB command to open the language screen in settings app
 `adb shell am start -a android.settings.LOCALE_SETTINGS`
 
+## ADB command to get all the details related to device
+`adb shell getprop`
+
 
 
 
