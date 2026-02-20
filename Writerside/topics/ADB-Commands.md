@@ -159,7 +159,9 @@ https://gist.github.com/ctrl-freak/24ac0e61b7cf550a6945
 ## ADB command to get all the details related to device
 `adb shell getprop`
 
-
+## ADB command to open app details screen of a specific app
+`adb shell am start -a android.settings.APPLICATION_DETAILS_SETTINGS package:com.android.car.media`
+https://stackoverflow.com/questions/24268973/how-can-i-launch-the-app-info-screen-for-my-app-through-adb 
 
 
 
